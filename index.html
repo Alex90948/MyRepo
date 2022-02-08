@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyNews Homepage</title>
+  <link rel="stylesheet" href="/style/main.css">
+
+  <script>
+    !function (n, e, o, r, i) {
+      if (!e) {
+        e = e || {}, window.permutive = e, e.q = [], e.config = i || {}, e.config.projectId = o,
+          e.config.apiKey = r, e.config.environment = e.config.environment || "production";
+        for (var t = ["addon", "identify", "track", "trigger", "query", "segment", "segments", "ready", "on", "once", "user", "consent"],
+          c = 0; c < t.length; c++) {
+          var f = t[c]; e[f] = function (n) {
+            return function () {
+              var o = Array.prototype.slice.call(arguments, 0);
+              e.q.push({ functionName: n, arguments: o })
+            }
+          }(f)
+        }
+      }
+    }(document, window.permutive, "<fff0dd2e-b592-46ad-bf99-c9bd1a6cad0f>", "<ab4cf25f-09d9-4efe-b1c2-e1fa36c58f95>", {});
+    permutive.addon("web", {
+      page: {
+        type: 'homepage'
+      }
+
+    });
+  </script>
+  <script async src="https://cdn.permutive.app/fff0dd2e-b592-46ad-bf99-c9bd1a6cad0f-web.js"></script>
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1>MyNews</h1>
+
+  </header>
+  <main>
+    <h2>Articles</h2>
+    <div class="articles">
+      <div id="article">
+        <h3><a href="articles/edge.html">Edge computing is the future</a></h3>
+        <p>
+          Edge computing is a distributed computing paradigm that brings
+          computation and data storage closer to the location where it is
+          needed, to improve response times and save bandwidth. The origins of
+          edge computing lie in content delivery networks that were created in
+          the late 1990s to serve web and video content from edge servers that
+          were deployed close to users. In the early 2000s, these networks
+          evolved to host applications and application components at the edge
+          servers,<sup>[3]</sup> resulting in the first commercial edge computing
+          services<sup>[4]</sup> that hosted applications such as dealer locators, shopping
+          carts, real-time data aggregators, and ad insertion engines. Modern
+          edge computing significantly extends this approach through
+          virtualization technology that makes it easier to deploy and run a
+          wider range of applications on the edge servers.
+        </p>
+      </div>
+      <div id="article">
+        <h3><a href="articles/cloud.html">Cloud computing</a></h3>
+        <p>
+          Cloud computing is the on-demand availability of computer system
+          resources, especially data storage (cloud storage) and computing
+          power, without direct active management by the user. The term is
+          generally used to describe data centers available to many users over
+          the Internet. Large clouds, predominant today, often have functions
+          distributed over multiple locations from central servers. If the
+          connection to the user is relatively close, it may be designated an
+          edge server.
+        </p>
+      </div>
+      <div id="article">
+        <h3><a href="articles/sections/fib.html">Fibonacci</a></h3>
+        <p>Learn more about the famous Fibonacci number!</p>
+      </div>
+    </div>
+    </div>
+  </main>
+
+
+</body>
+
+</html>

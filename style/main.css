@@ -1,0 +1,38 @@
+body {
+	
+  width: 90%;
+  margin: auto;
+  background-color:#e9eef7;
+  color: #3a539b;
+}
+.articles {
+  display: flex;
+  column-gap: 10px;
+}
+
+.articles #article {
+  border: 1px solid grey;
+  width: 40%;
+}
+
+h1, h2, h3{
+text-align: center;
+
+}
+
+
+p {
+  text-align: justify;
+	
+}
+
+div {
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+
+h3,
+a {
+  color: black;
+}
